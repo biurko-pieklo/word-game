@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Word Game</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script
+            src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous">
+        </script>
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div class="game__wrapper">
+            <div class="game">
+                <div class="game__answers">
+
+                </div>
+                <form class="game__form" action="" method="post">
+                    <div class="game__inputs">
+                        <input type="text" name="letter_1" id="letter_1" maxlength="1"/>
+                        <input type="text" name="letter_2" id="letter_2" maxlength="1"/>
+                        <input type="text" name="letter_3" id="letter_3" maxlength="1"/>
+                        <input type="text" name="letter_4" id="letter_4" maxlength="1"/>
+                        <input type="text" name="letter_5" id="letter_5" maxlength="1"/>
+                    </div>
+                    <div class="game__warning"></div>
+                    <div class="game__submit">
+                        <button type="submit">Sprawdź</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
